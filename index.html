@@ -11,14 +11,14 @@
         <div class="header-image">
             <img class="relative w-5/6 mx-auto mt-16 mb-16" src="images/per-hoel-header2.jpg" alt="headerpic-per-hoel">
             <div class="header-words absolute text-white bottom-20 left-40 w-5/6">
-                <h1 class="text-5xl mb-6">Galleri Per Hoel</h1>
-                <p class="text-lg">Per Hoels grafiske arbeider tar publikum med til fremmede steder, og gir en fornemmelse av fjerne himmelstrøk. Hvert bilde er en reise i seg selv, 
+                <h1 class="invisible sm:visible text-5xl mb-6">Galleri Per Hoel</h1>
+                <p class="invisible sm:visible text-lg">Per Hoels grafiske arbeider tar publikum med til fremmede steder, og gir en fornemmelse av fjerne himmelstrøk. Hvert bilde er en reise i seg selv, 
                     med glede,smerte og humor hånd i hånd, meditativt, formsikkert og fargesterkt. Velkommen!</p>
             </div>
         </div>
     </header>
     <main>
-        <div class="opening-hours-and-map grid grid-cols-2 gap-2 ml-40">
+        <div class="opening-hours-and-map flex flex-col items-center sm:grid grid-cols-2 gap-10 ml-40">
             <div class="opening-hours">
                 <h2 class="text-4xl text-gray-600 mb-6">Åpningstider 2023</h2>
                 <p class="text-xl text-gray-600 font-semibold">Åpningstider høsten 2023</p>
@@ -50,25 +50,21 @@
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <!-- Item 1 -->
                     <div class="hidden duration-200 ease-linear" data-carousel-item="active">
-                        <img src="https://www.perhoel.no/wp-content/uploads/2018/07/phgalleri-566-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-1">
+                        <img src="images/phgalleri-561-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-1">
                     </div>
                     <!-- Item 2 -->
                     <div class="hidden duration-500 ease-linear" data-carousel-item>
-                        <img src="images/phgalleri-561-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-2">
+                        <img src="https://www.perhoel.no/wp-content/uploads/2018/07/phgalleri-566-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-2">
                     </div>
                     <!-- Item 3 -->
                     <div class="hidden duration-500 ease-linear" data-carousel-item>
-                        <img src="images/Bilde 10.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="kongensgate">
+                        <img src="images/phgalleri-561-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-2">
                     </div>
                     <!-- Item 4 -->
                     <div class="hidden duration-500 ease-linear" data-carousel-item>
-                        <img src="images/phgalleri-561-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-2">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-500 ease-linear" data-carousel-item>
                         <img src="https://www.perhoel.no/wp-content/uploads/2018/07/phgalleri-566-1024x379.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-1">
                     </div>
-                    <!-- Item 6 -->
+                    <!-- Item 5 -->
                     <div class="hidden duration-500 ease-linear" data-carousel-item>
                         <img src="images/flytte.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="gallery-1">
                     </div>
@@ -95,7 +91,7 @@
         <br><br><hr><br>
         <div class="paintings-gallery-text">
             <h2 class="text-4xl text-gray-600 ml-40 my-20">Aktuelle arbeider</h2>
-            <div class="paintings grid grid-cols-3 gap-6 ml-40 mr-40">
+            <div class="paintings grid grid-cols-1 sm:grid-cols-3 gap-6 ml-40 mr-40">
                 <a class="text-center scale-100 hover:scale-150 ease-in duration-500" href="#"><img src="images/a-spark-in-the-eye-II.jpg" alt="spark-in-the-eyeII">A Spark In The Eye II 67 x 58 cm</a>
                 <a class="text-center scale-100 hover:scale-150 ease-in duration-500" href="#"><img src="images/ballistics-XL.jpg" alt="ballistics-XL">Balistics 64 x 57 cm</a>
                 <a class="text-center scale-100 hover:scale-150 ease-in duration-500" href="#"><img src="images/blue-gitane-XL.jpg" alt="blue-gitane-XL">Blue Gitane 49 x 44 cm</a>
@@ -117,7 +113,7 @@
         </div>
         <br><br><hr><br>
         <h2 class="text-4xl text-gray-600 ml-40 my-20">Storformat</h2>
-        <div class="large-format grid grid-cols-2 gap-10 ml-40 mr-40">
+        <div class="large-format grid grid-cols-1 sm:grid-cols-2 gap-10 ml-40 mr-40">
             <a class="text-center scale-100 hover:scale-150 ease-in duration-500" href="#"><img src="images/mindfulnes-XL.jpg" alt="minfulness">Mindfulness 130 x 167 cm</a>
             <a class="text-center scale-100 hover:scale-150 ease-in duration-500" href="#"><img src="images/ship-of-fools-XL.jpg" alt="ship-of-fools">Ship of fools 167 x 115 cm</a>
         </div>
@@ -127,57 +123,92 @@
         <div class="accordion-part mx-40 my-20">
             <div id="accordion-collapse" data-accordion="collapse">
                 <h2 id="accordion-collapse-heading-1">
-                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-                    <span>What is Flowbite?</span>
+                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                    <span class="text-xl sm:text-4xl text-blue-500 font-thin">Per Hoels verden</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                 </button>
                 </h2>
                 <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                    <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
-                </div>
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                        <div class="mb-2 text-md sm:text-xl text-gray-500 dark:text-gray-400">
+                            <p>Per Hoel er født 1954 i Oslo. Bosatt i Stavern siden 2000. Populær underviser i gresk på Folkeuniversitetet.
+                                Vokste opp på Island, i England, Egypt og Hellas. Studerte fransk, statsvitenskap og sosialantropologi.
+                                Har jobbet innenfor allverdens felt og reist i allverdens land.
+                            </p>
+                            <p>
+                                Per Hoels abstrakte bilder har en enorm spennvidde og tar publikum med til fremmede steder,
+                                og gir en fornemmelse av å reise til fjerne himmelstrøk.
+                                Han har utviklet sitt helt egenartede kunstuttrykk. Hvert bilde er en reise i seg selv,
+                                med glede, smerte og humor hånd i hånd, meditativt, formsikkert og fargesterkt.
+                            </p>
+                            <p>
+                                Bildene hans har foruten Norge vært vist i Danmark og USA.
+                                Hvert bilde selges ferdig innrammet i individuellt tilpassede rammer, hovedsaklig håndlaget i Italia.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <h2 id="accordion-collapse-heading-2">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-                    <span>Is there a Figma file available?</span>
+                    <span class="text-xl sm:text-4xl text-blue-500 font-thin">Utstillinger</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                 </button>
                 </h2>
                 <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                    <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
-                </div>
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                        <div class="mb-2 text-md sm:text-xl text-gray-500 dark:text-gray-400">
+                                <p>Eget galleri i Sjaluppskuret v/kanalen, Fredriksvern Verft i Stavern, 2008 -</p>
+                                <p>Galleri Singsaker, Trondheim, 2012</p>
+                                <p>Tønsberg Kunstforening, 2010</p>
+                                <p>Galleri Rallaren, Tyssedal, 2010</p>
+                                <p>Eldreuniversitet, Lions Club Stokke, 2009</p>
+                                <p>Hillestad Galleri, 2009</p>
+                                <p>Eldreuniversitet, Lions Club Stokke, 2008</p>
+                                <p>Vinjeutstillinga, Språk og kommunikasjon, 2008</p>
+                                <p>Vordingborg Kunstforening, KulturArkaden, 2008</p>
+                                <p>Påskeutstilling i Stavern, Fredriksvern Verft, 2008</p>
+                                <p>Du Store Alpakka & Friends, Oslo, 2007</p>
+                                <p>Høstutstilling i Stavern, Hotel Wassilioff, 2007</p>
+                                <p>Eldreuniversitet, Lions Club Stokke, 2006</p>
+                                <p>Galleri Smia, Oslo, 2006</p>
+                                <p>Eget, helårsåpent galleri i Stavern, 2005-2007</p>
+                                <p>Kafé Sylvette, Larvik Museum, 2005</p>
+                                <p>Nalum, Stavern, 2005</p>
+                        </div>
+                    </div>
                 </div>
                 <h2 id="accordion-collapse-heading-3">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-                    <span>What are the differences between Flowbite and Tailwind UI?</span>
+                    <span class="text-xl sm:text-4xl text-blue-500 font-thin">Kunst som tar deg med på en reise</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                 </button>
                 </h2>
                 <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-                <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                    <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
-                    <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                    <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                    </ul>
-                </div>
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <div class="mb-2 text-md sm:text-xl text-gray-500 dark:text-gray-400">
+                            <p>Per Hoels abstrakte bilder tar publikum med til fremmede steder, og gir en fornemmelse av å reise til fjerne himmelstrøk.
+                            De som har reist mye, synes de har sett noe fra Afrika, noe fra Østen, noe fra en fjern kultur.
+                            Bildene har en enorm spennvidde, med mange uttrykk.
+                            </p>
+                            <p>- Jeg har ikke et entydig svar på hvor påvirkningen kommer fra, fordi jeg jobber fra et indre plan.
+                            Bildene mine er med abstrakte motiver. Ved nærmere ettersyn har de en mengde iboende former.
+                            Disse er først tilgjengelige når man tar seg tid til å betrakte bildet.
+                            Inngangsnøkkelen til de fleste av bildene mine har mye å gjøre med den sinnstilstanden man selv er i der og da.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-
+        <p class="text-xl text-gray-400 text-center p-16">De fleste fotos: Svenn Dvergastein • Design: Charlotte.no</p>
     </footer>
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </body>
